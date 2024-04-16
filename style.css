@@ -20,7 +20,7 @@ html {
     border-radius: 32px;
     display: grid;
     grid-template-columns: 50% 50%;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 30px hsl(241, 40%, 89%);
 }
 
 .blueblock {
