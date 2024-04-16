@@ -1,0 +1,175 @@
+@font-face {
+    font-family: Hanken;
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf)
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: Hanken, sans-serif;
+    background-color: hsl(221, 100%, 96%);
+}
+
+.container {
+    width: 736px;
+    height: 512px;
+    margin: 10% auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 32px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.blueblock {
+    width:368px;
+    height:512px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(234, 85%, 45%));
+    border-radius: 32px;
+}
+
+.bluecontent {
+    padding: 38px 54px;
+    text-align: center;
+    color:hsl(0, 0%, 100%);
+}
+
+.result {
+    font-size:1.333rem;
+    padding-bottom: 32px;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: 0 auto;
+}
+
+#bignumber {
+    font-size:4rem;
+    font-weight: 700;
+    padding-top: 45px;
+    line-height: 1.15;
+    opacity: 1
+}
+
+#smallnumber {
+    font-size: 0.85rem
+    color: hsl(241, 100%, 89%);
+    opacity: 0.5;
+}
+
+#great {
+    font-size: 1.777rem;
+    margin: 32px auto;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+#note {
+    font-size: 1rem;
+    color:hsl(221, 100%, 96%);
+    opacity: 0.7;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.whitecontent {
+    padding: 38px 38px;
+}
+
+#summary {
+    font-weight: 800;
+    font-size: 1.333rem;
+    padding-bottom: 10px;
+    margin-bottom:20px;
+}
+
+#redtab {
+    background-color: hsl(0, 100%, 98%);
+    padding: 15px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#orangetab {
+    background-color: hsl(38, 100%, 98%);
+    padding: 15px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#greentab {
+    background-color: hsl(162, 63%, 97%);
+    padding: 15px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#bluetab {
+    background-color: hsl(234, 71%, 97%);
+    padding: 15px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.textred{
+    color: hsl(0, 100%, 67%);
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.textorange {
+    color: hsl(39, 100%, 56%);
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.textgreen {
+    color: hsl(166, 100%, 37%);
+    font-size: 1rem;
+    font-weight: 800;
+    margin-right: 20px
+}
+
+.textblue {
+    color: hsl(234, 85%, 45%);
+    font-size: 1rem;
+    font-weight: 800;
+    margin-right: 20px
+}
+
+.textnum {
+    font-size: 1rem;
+    font-weight: 800;
+    padding-left: 80px;
+}
+
+#button {
+    width: 100%;
+    background-color: hsl(224, 30%, 27%);
+    padding: 15px 0;
+    text-align: center;
+    color:hsl(0, 0%, 100%);
+    margin-top: 40px;
+    border-radius: 90px
+}
+
+#button:hover {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(234, 85%, 45%));
+}
+
