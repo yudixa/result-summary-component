@@ -160,6 +160,10 @@ html {
     padding-left: 80px;
 }
 
+.numop {
+    opacity: 0.4;
+}
+
 #button {
     width: 100%;
     background-color: hsl(224, 30%, 27%);
