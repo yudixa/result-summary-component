@@ -9,17 +9,18 @@ html {
     box-sizing: border-box;
     font-size: 18px;
     font-family: Hanken, sans-serif;
-    background-color: hsl(221, 100%, 96%);
+    background-color: hsl(0, 0%, 100%);
 }
 
 .container {
     width: 736px;
     height: 512px;
-    margin: 10% auto;
+    margin: 20% auto;
     background-color: hsl(0, 0%, 100%);
     border-radius: 32px;
     display: grid;
     grid-template-columns: 50% 50%;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .blueblock {
